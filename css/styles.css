@@ -1,0 +1,484 @@
+/* Style the body*/
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px; color: #292929;
+	max-height: 100%;
+	}
+	/*Style headings*/	
+	h1, h2, h3 {
+		color: #000;
+	}
+	
+	/* Style the header area*/
+	.header {
+		background-color: #fff;
+		height: 85px;
+		max-width: 100%
+	}
+	
+	/* Style the logo*/
+	.logo {
+		float: left;
+		margin: 0 auto; 
+	}
+	
+	/* Style the main top navigation menu */
+	nav {
+		float: right; position:relative; z-index: 99; margin-right: 70px;
+	}
+	nav ul li {
+		list-style-type: none; text-transform: uppercase; padding-top: 5px;
+		padding-right: 5px; display: inline-block; position: relative;
+	}
+	nav ul li a {
+		text-decoration: none; color: #fff; background: #006666;
+		height: 40px; width: 120px; line-height: 40px;
+		display: inline-block; text-align: center; border-radius: 3px
+	}
+	nav ul li ul {
+		position: absolute;
+		display: none;
+	}
+	nav ul li:hover ul {
+		display: block; left: auto; right: 0;
+		margin-right: -10;
+	}
+	nav ul li a:hover {
+		background-color: #e55300; color: #2b2b2b; transition: all .6s;
+	}
+	.nav-toggle {
+		display: none;
+	}
+	#nav-toggle {
+		display: none;
+	}
+	
+	/*Style for responsive navigation hamburger menu*/
+	@media only screen and (max-width:800px) {
+	body {
+		font-size: 17px;
+	}
+	nav {
+		display: none;
+	}
+	.nav-toggle {
+		display: block;
+		float: right;
+		margin-top: 30px;
+		margin-right: 50px;
+		cursor: pointer;
+	}
+	#nav-toggle:checked ~ nav {
+		display: block;
+		cursor: pointer;
+		position: fixed;
+		margin: 50px 0 0 180px;
+	}
+	nav ul li a {
+		display: block;
+
+		}
+	} 	/*End of Navigation menu*/
+	
+
+	/*Style for banner*/	
+	.banner-img {
+		padding: 0px; max-width: 100%;
+		height: auto; position: relative;
+		background-image: center;
+	}
+	.bannerhome {
+		width: 100%;
+		height: auto;
+	}
+	
+	/*Style Home page */
+	.hometable {
+		padding-top: 30px; max-height: 100%; max-width: 100%; overflow: hidden;
+	}
+	.homecontent {
+		padding-left: 50px;
+	}
+	.welcome {
+		text-align: center;
+	}
+	/*Style for Featured Menu at home page*/
+	.featuredtable {
+		padding-left: 20px;  max-width: 100%; height: auto; margin-bottom: 30px; 
+	}
+	.featmenu {
+		text-align: center; text-transform: uppercase; margin-top: 45px; 
+	}
+	.featcontainer {
+		text-align: center; max-width: 100%; height: auto;
+	}
+	.homefeatappetizerpic {
+		background-color: #ff9f00; height: 285px; width: 250px; display: inline-block;
+		margin-right: 60px; margin-bottom: 10px; max-width: 100%; height: auto;
+	}
+	.homefeatmain {
+		background-color: #ff9f00; height: 285px; width: 250px; display: inline-block;
+		margin-right: 60px; margin-bottom: 10px; max-width: 100%; height: auto;
+	}
+	.homefeatdessert {
+		background-color: #ff9f00; height: 275px; width: 250px; display: inline-block;
+		vertical-align: top; margin-right: 60px; margin-bottom: 10px; max-width: 100%; 
+	}
+	.homefeatmain2 {
+		background-color: #ff9f00; height: 285px; width: 250px; margin-bottom: 10px; margin-right: 60px; max-width: 100%; height: auto;
+		 display: inline-block;
+	}
+	
+	.homeservices {
+		text-align: center; text-transform: uppercase; margin-bottom: 50px;
+	}
+	.home_book {
+		margin-right: 30px; display: inline-block; max-width: 100%; height: auto;
+	}
+	.home_voucher {
+		 margin-right: 30px; display: inline-block; max-width: 100%; height: auto;
+	}
+
+	
+	/*Style for About page*/
+	.aboutheading {
+		max-width: 100%; height: auto; margin-bottom: 30px; overflow: hidden;
+	}
+	.banner-about {
+		width: 100%; height: auto;
+	}
+	.aboutpage {
+		 padding-left: 90px;
+	}
+	.textabout {
+		padding-left: 50px; padding-right: 80px;
+	}
+	/*Style for Appetizer menu*/
+	.banner-appetizer { 
+		width: 100%; height: auto;
+	}
+	.menuappetizer {
+		padding-left: 90px;	
+	}
+	#tableappetizer {
+		max-height: 100%; max-width: 100%; overflow: hidden;
+		background-color: #f2f2f2; height: auto; margin-bottom: 20px;
+	}
+	.firstcol {
+		float: left; width: 720px; padding-left: 50px; max-width: 100%; height: auto;
+	}
+	.paua-div {
+		max-width: 100%; height: auto; width: 850px; height: 150px; 
+	}	
+	.pauapic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.rwfsh {
+		float: left; 
+	}
+	.rawfishpic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px;  max-width: 100%; height: auto;
+	}
+	.seafood {
+		float: left;
+	}
+	.seafoodbasketpic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.secondcol {
+		float: right; width: 720px; max-width: 100%; height: auto;
+	}
+	.coltwo {
+		padding-left: 65px;
+	}
+	.rewana {
+		float: left;
+	}
+	.breadpic {
+		float: left; margin-bottom: 35px; margin-right: 15px; 
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.Salmon {
+		float: left;
+	}
+	.PoachedSalmonpic {
+		float: left; margin-bottom: 35px; margin-right: 15px; max-width: 100%; height: auto;
+		border-radius: 5px;
+	} /*End style for Appetizer Menu*/
+	
+	
+	/*Style for Menu Main*/
+	.banner-mainmenu {
+		width: 100%; height: auto; position: relative;
+	}	
+	.mainmenu {
+		padding-left: 90px; 
+	}
+	.maintable {
+		max-height: 100%; max-width: 100%; height: auto; overflow: hidden;
+		background-color: #f2f2f2;
+	}
+	.mainfirstcol {
+		float: left; width: 720px; height: 900px; padding-left: 40px;
+	}
+	.fishdaypic {
+			float: left; margin-bottom: 35px; margin-right: 15px;
+			border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.seafoodchowder {
+		float: left; 
+	}
+	.chowderpic {
+		float: left; margin-bottom: 35px; margin-right: 15px; 
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.musselscallops {
+		float: left;  
+	}
+	.musselspic {
+		float: left;  margin-right: 15px; border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.secondcolumn {
+		float: right; max-width: 100%; width: 720px; height: auto; width: 720px; 
+		padding-right: 20px; padding-left: 15px;
+	}
+	.crispyporkpic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.lambsteak {
+		float: left;
+	}
+	.lambpic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	.venison {
+		float: left;
+	}
+	.venisonpic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px; max-width: 100%; height: auto;
+	}
+	
+	/*Style for Dessert menu*/
+	.banner-dessert {
+		width: 100%;  height: auto;
+	}	
+	.menudessert {
+		padding-left: 90px;
+	}
+	.dessertable {
+		max-width: 100%;  height: auto;overflow: hidden; background-color: #f2f2f2;
+	}
+	.dessert1stcol {
+	 width: 720px; height: auto; float: left; padding-left: 30px; margin-bottom: 30px; margin-top: 20px;
+	}
+	.KapitiIceCream {
+		float: left;  margin-bottom: 35px; margin-left: 50px; max-width: 100%; height: auto;
+	}
+	.Kapitipic {
+		float: left;  border-radius: 5px; 
+	}
+	.textkapiti {
+		float: left; margin-left: 15px; 
+	}	
+	.steampudding {
+		float: left; margin-left: 15px;
+	}
+	.puddingpic {
+		float: left; border-radius: 5px; max-width: 100%; height: auto; 
+	}
+	.textsteampudding {
+		float: right; margin-left: 15px; width: 350px;
+	}	
+	.dessert2ndcol {
+		width: 720px; height: 720px; max-width: 100%; height: auto; 
+		float: right; margin-bottom: 30px; margin-top: 20px;
+	}
+	.pav-lova {
+			float: left;
+	}
+	.pavlovapic {
+		float: left; margin-bottom: 35px; margin-right: 15px;
+		border-radius: 5px;	max-width: 100%; height: auto;
+	}
+	.banoffeepie {
+		float: left;
+	}
+	.banoffeepic {
+		float: left; border-radius: 5px; max-width: 100%;
+	}
+	.bontext {
+		float: right; padding-left: 15px;
+	}
+		
+	/*Style for Beverage page*/
+	.banner-beverage {
+		width: 100%; height: auto; 
+	}	
+	.beveragemenu {
+		padding-left: 90px;
+	}
+	.beveragetable {
+		max-height: 100%; max-width: 100%; overflow: hidden; height: auto; line-height: 1.4;
+		background-color: #f2f2f2;
+	}
+	.firstcolbeverage {
+	 float: left; margin-left: 50px; margin-right: 50px; max-width: 100%; height: auto;
+	}
+	.red-wine {
+		padding-left: 15px;  text-align: justify;
+	}
+	.redwinepic {
+		margin-top: 10px; border-radius: 8px; max-width: 100%; height: auto;
+	}
+	.white {
+		float: left; padding-right: 15px; text-align: justify;
+	}
+	.whitewinepic {
+		margin-top: 50px; border-radius: 8px;  max-width: 100%; height: auto;
+	}
+	.secondcolbeverage {
+		float: right; margin-right: 50px; margin-left: 50px; max-width: 100%; height: auto;
+	}
+	.Beercidarpic {
+	 margin-top: 10px; border-radius: 8px; max-width: 100%; height: auto;
+	}
+	.water {
+		 margin-top: 50px; border-radius: 8px; max-width: 100%; height: auto;	
+	}
+	
+	/* Style Book page (Online booking)*/
+	.booknow {
+		padding-left: 90px;
+	}
+	.onlinebookingtable {
+		background-color: #f2f2f2; max-width: 100%; height: auto;
+		overflow: hidden;
+	}
+	.forframe {  /*Responsive iframe*/
+		float: left; padding-right: 50px; padding-left: 50px; padding-top: 10px; max-width: 100%; height: auto;
+	}
+	.forframe iframe {  /*End of Responsive iframe*/
+		max-width: 100%; max-height: 100%;
+	}
+
+	.secondcolbookpage {
+		float: right; padding-right: 50px; margin-left: 50px; max-width: 100%; height: auto;
+	}
+	.h3appbook {
+		padding-left: 25px;
+	}
+	.appetizerbook {
+		width: 625px; height: 200px; border-radius: 8px; max-width: 100%; height: auto; 
+	}
+	.mainbooknow {
+		width: 625px; height: 200px; border-radius: 8px; max-width: 100%; height: auto;	
+	}
+	.dessertbooknow {
+		width: 625px; height: 200px; border-radius: 8px; max-width: 100%; height: auto;	
+	}
+	.beveragebook {
+		width: 625px; height: 200px; border-radius: 8px; max-width: 100%; height: auto;	
+	}
+	
+	/*Style for voucher page*/
+	.voucher {
+		background-color: #f2f2f2; max-height:100% max-width: 100%; 
+	}
+	.vouchertext {
+		padding-left: 90px; 
+	}
+	.purchase {
+		padding-left: 50px;
+	}
+	
+	/*Style for Contact page*/
+	.contactable {
+		max-width: 100%; height: auto; background-color: #f2f2f2; overflow: hidden;
+	}
+	.contacus {
+		padding-left: 90px;
+	}
+	.contactform { /*Responsive contact form*/
+		float: left; padding-left: 50px; padding-right: 50px; max-width: 100%; height: auto;
+	}
+	.contactform iframe { /*End of Responsive contact form*/
+		max-width: 100%; max-height: 100%
+	}
+	.column2contact {
+		float: right; padding-right: 50px; padding-left: 50px; max-width: 100%; height: auto;
+	}
+	/*Column 2 for the map*/
+	.addresstext {
+		text-align: center;
+	}
+	.map iframe {  /*Responsive map iframe*/
+		max-width: 100%;
+		max-height: 100%;
+	}
+	
+		/*Style for Hours page*/
+	.Hours {
+		padding-left: 90px;
+	}
+	
+	/*Style for Responsive Calendar page*/
+	.calendar-table {
+		max-width: 100%; height: auto; background-color: #f2f2f2; overflow: hidden;
+	}
+	.calendar-frame {
+		text-align: center; padding-top: 20px; padding-bottom: 20px;
+		}
+	.calendar-frame iframe {
+		 max-width: 100%; max-height: 100%;
+	}
+	
+	/*Style for Privacy page*/
+	.Privacytab {
+		max-width: 100%; max-height:100%; background-color: #f2f2f2;
+		padding-left: 40px; padding-right: 40px;
+	}
+	.privacy {
+		padding-left: 90px;
+	}
+	.privacypol {
+		padding-left: 50px;
+	}
+	
+	/*Style for footer*/
+	footer {
+	max-width: 100%; height: auto; padding: 2px; background-color: #333;
+	}	
+	.footernav {
+		text-align: center;
+	}
+	.footernav li {
+		list-style-type: none; display: inline-block;  margin-right: 20px; margin-top: 10px;
+	}
+	.footernav li a {
+		text-decoration: none; text-transform: uppercase; color: #ccccff;
+	}
+	.footernav ul li a:hover {
+		color: #fff;
+	}
+	.copyright-footer {
+		color: #ccccff; padding-top: 15px;
+	}
+	@media only screen and (max-width:800px) {
+	 .footernav li {
+		 display: inline-block; margin-right: 5px;
+	 }
+	.footernav li a {
+		position: static;
+		font-size: 12px;
+	}
+	.copyright-footer {
+		font-size: 12px;
+	}
+	
