@@ -24,8 +24,11 @@ body {
 	}
 	
 	/* Style the main top navigation menu */
+	.nav-menus {
+	float: right; height: 85px; width: 90%;
+	}
 	nav {
-		float: right; position:relative; z-index: 99; margin-right: 70px;
+		float: right; position:relative; z-index: 99;  padding-top: 20px;
 	}
 	nav ul li {
 		list-style-type: none; text-transform: uppercase; padding-top: 5px;
@@ -54,6 +57,22 @@ body {
 		display: none;
 	}
 	
+	/*Style for Staff log-in*/
+	.staff-login-button {
+		float: right; height: 30px; width: 120px; text-align: center;
+		line-height: 30px; margin-right: 15px; margin-top: 5px; 
+		border-radius: 5px; border-bottom: 2px dashed #006666;  border-top: 2px dashed #006666; 
+		border-left: 2px dashed #006666;  border-right: 2px dashed #006666;
+	}
+	.staff-login-button a {
+		text-decoration: none; text-transform: uppercase; color: #292929;
+	}
+	.staff-login-button:hover {
+		background-color: #006666; transition: ease-out .8s;
+	}
+	.staff-login-button:hover a {
+		color: #fff;
+	}
 	/*Style for responsive navigation hamburger menu*/
 	@media only screen and (max-width:800px) {
 	body {
@@ -450,7 +469,21 @@ body {
 	.privacypol {
 		padding-left: 50px;
 	}
-	
+
+	/*Style for Log-in page form*/
+	.log-in-form {
+		height: 500px;
+		width: 450px;
+		text-align: center;
+		margin: auto;
+		background-color: #ccccff;
+
+	}
+	.log-in-form ul li {
+		list-style-type: none;
+
+	}
+
 	/*Style for footer*/
 	footer {
 	max-width: 100%; height: auto; padding: 2px; background-color: #333;
